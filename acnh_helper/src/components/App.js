@@ -1,8 +1,15 @@
 import React from 'react';
-import '../css/App.css';
+import {BrowserRouter, Route} from 'react-router-dom';
+import Fish from './catch/Fish';
+import Fossil from './collect/Fossil';
+
 const App = () => {
 	return (
-		<div className="main">HELLO WORLD</div>
+		<div>
+			HELLO WORLD
+			
+		</div>
+		
 	);
 }
 
