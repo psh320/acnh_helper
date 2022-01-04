@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import '../css/App.css';
 const App = () => {
 	return (
-		<div>HELLO WORLD</div>
+		<div className="main">HELLO WORLD</div>
 	);
 }
 
