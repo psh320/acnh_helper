@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import GoogleAuth from './GoogleAuth';
 
 const Header = () => {
 	return (
@@ -28,8 +28,10 @@ const Header = () => {
 						</Link>
         			</li>
       			</ul>
-				<ul className="nav me-auto me-1">
-					login button
+				<ul className="navbar-nav ms-auto ms-2">
+					<li className="nav-item">
+						<GoogleAuth />
+					</li>
 				</ul>
     		</div>
   			</div>
