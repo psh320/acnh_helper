@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-	baseURL: 'http://acnhapi.com/v1/'
+	baseURL: 'https://acnhapi.com/v1'
 });
